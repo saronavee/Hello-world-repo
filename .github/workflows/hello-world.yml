@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello-job:
+  Echo text:
     runs-on: ubuntu-latest
     steps:
       - name: echo command
